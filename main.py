@@ -52,7 +52,7 @@ def get_response_from_ChatGPT_API(message_context, apikey):
               "Authorization": "Bearer " + apikey}
 
     data = {
-        "model": "gpt-3.5-turbo",
+        "model": "gpt-4",
         "messages": message_context
     }
     url = "https://api.openai.com/v1/chat/completions"
